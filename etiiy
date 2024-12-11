@@ -1,11 +1,16 @@
 {
   "name": "Etiiy.com",
   "short_name": "Etiiy.com",
-  "theme_color": "#000000",
-  "background_color": "#000000",
-  "display": "standalone",
-  "scope": "/",
   "start_url": "/",
+  "display": "standalone",
+  "description": "Media Music Publisher and Listening Radio Article",
+  "lang": "en-US",
+  "dir": "auto",
+  "theme_color": "#22262d",
+  "prompt_message": "Add a Home screen icon for easy access to Media",
+  "background_color": "#22262d",
+  "gcm_user_visible_only": "true",
+  "gcm_sender_id": "714759586663",
   "icons": [
     {
       "src": "https://i.ibb.co.com/k4Bq12N/oie-0r-Hr-MLq-K6-Jj-Q.png",
@@ -47,5 +52,58 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "screenshots": [
+    {
+      "src": "https://i.ibb.co.com/k4Bq12N/oie-0r-Hr-MLq-K6-Jj-Q.png",
+      "sizes": "1617x1012",
+      "type": "image/png"
+    }
+  ],
+  "features": [
+    "Cross Platform",
+    "fast",
+    "simple"
+  ],
+  "categories": [
+    "entertainment",
+    "lifestyle",
+    "music",
+    "news",
+    "shopping",
+    "social",
+    "travel"
+  ],
+  "shortcuts": [
+    {
+      "name": "Studio",
+      "url": "/",
+      "description": "Takes you to documentation on using  Studio.",
+      "icons": [
+        {
+          "src": "https://i.ibb.co.com/k4Bq12N/oie-0r-Hr-MLq-K6-Jj-Q.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "Etiiy.com",
+      "id": "com.etiiy.blog"
+    },
+    {
+      "platform": "webapp",
+      "url": "/manifest.webmanifest"
+    }
+  ],
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "prefer_related_applications": true,
+  "edge_side_panel": {
+    "preferred_width": 496
+  }
 }
